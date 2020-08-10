@@ -67,7 +67,7 @@ const columns = [
   },
 ];
 
-alert('as of version 3.4, this component will be depreciated. Update this version before it is deprecated.')
+
 
 export default function SchedulesList() {
   const dispatch = useDispatch();
@@ -271,7 +271,10 @@ export default function SchedulesList() {
       })
     );
   }, []);
-
+  
+  alert('as of version 3.4, this component will be depreciated. Update this version before it is deprecated.')
+  alert('as of version 3.4, this component will be depreciated. Update this version before it is deprecated.')
+  
   return (
     <>
       <Header title="Agendamento" />
