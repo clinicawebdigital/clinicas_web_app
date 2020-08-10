@@ -67,6 +67,8 @@ const columns = [
   },
 ];
 
+Alert.alert('as of version 3.4, this component will be depreciated. Update this version before it is deprecated.')
+
 export default function SchedulesList() {
   const dispatch = useDispatch();
 
@@ -307,6 +309,7 @@ export default function SchedulesList() {
             </Row>
           </form>
         </div>
+        Table componente is deprecated, update component 'https://getbootstrap.com/docs/4.0/content/tables/'
         <TableSchedule
           keyField="key"
           data={schedule.data}
