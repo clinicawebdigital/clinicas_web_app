@@ -311,7 +311,7 @@ export default function SchedulesList() {
             </Row>
           </form>
         </div>
-     <h4> 
+     
         <TableSchedule
           keyField="key"
           data={schedule.data}
