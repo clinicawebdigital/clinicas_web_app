@@ -272,8 +272,7 @@ export default function SchedulesList() {
     );
   }, []);
   
-  alert('as of version 3.4, this component will be depreciated. Update this version before it is deprecated.')
-  alert('as of version 3.4, this component will be depreciated. Update this version before it is deprecated.')
+  
   
   return (
     <>
@@ -312,7 +311,7 @@ export default function SchedulesList() {
             </Row>
           </form>
         </div>
-     <h4>   Table componente is deprecated, update component 'https://getbootstrap.com/docs/4.0/content/tables/'</h4>
+     <h4> 
         <TableSchedule
           keyField="key"
           data={schedule.data}
