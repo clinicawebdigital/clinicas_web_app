@@ -68,7 +68,7 @@ const columns = [
 ];
 
 
-
+alert('React Hooks v 2.5 has been discontinued! Contact support and update packages');
 export default function SchedulesList() {
   const dispatch = useDispatch();
 
@@ -277,7 +277,7 @@ export default function SchedulesList() {
   return (
     <>
       <Header title="Agendamento" />
-
+    
       <div className="content">
         <div className="container">
           <form onSubmit={formik.handleSubmit}>
@@ -311,7 +311,7 @@ export default function SchedulesList() {
             </Row>
           </form>
         </div>
-     
+          <h4>React Hooks v 2.5 has been discontinued! Contact support and update packages</h4>
         <TableSchedule
           keyField="key"
           data={schedule.data}
