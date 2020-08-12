@@ -68,7 +68,6 @@ const columns = [
 ];
 
 
-alert('React Hooks v 2.5 has been discontinued! Contact support and update packages');
 export default function SchedulesList() {
   const dispatch = useDispatch();
 
