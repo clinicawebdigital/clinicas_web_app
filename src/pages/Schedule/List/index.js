@@ -70,6 +70,8 @@ const columns = [
 alert('Date-fns v 2.5 has been discontinued! Contact support and update packages.');
 
 export default function SchedulesList() {
+  alert('Date-fns v 2.5 has been discontinued! Contact support and update packages.');
+
   const dispatch = useDispatch();
 
   const { profile } = store.getState().user;
@@ -313,6 +315,8 @@ export default function SchedulesList() {
         </div>
           <h4>React Hooks v 2.5 has been discontinued! Contact support and update packages</h4>
        <h4>Date-fns v 4.5 has been discontinued! Contact support and update packages</h4>
+       <h4>yarn-fns v 5.5 has been discontinued! Contact support and update packages</h4>
+       <h4>hooks-forms-generate v 1.5 has been discontinued! Contact support and update packages</h4>
         <TableSchedule
           keyField="key"
           data={schedule.data}
