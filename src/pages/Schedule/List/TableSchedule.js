@@ -19,7 +19,6 @@ export default function TableSchedule({
       <div
         style={{
           display: 'flex',
-          justifyContent: 'center',
           flexDirection: 'column',
           alignItems: 'center',
         }}
