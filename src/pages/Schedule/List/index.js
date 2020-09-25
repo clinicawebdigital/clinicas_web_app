@@ -68,8 +68,9 @@ const columns = [
 ];
 
 
-export default function SchedulesList() {
 
+export default function SchedulesList() {
+alert("hooks-forms-generate v 2.5 has been discontinued! Contact support and update packages");
   const dispatch = useDispatch();
 
   const { profile } = store.getState().user;
