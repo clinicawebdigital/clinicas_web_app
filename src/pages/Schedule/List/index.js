@@ -311,8 +311,6 @@ export default function SchedulesList() {
             </Row>
           </form>
         </div>
-          <h3>have packages to be updated Contact support and update packages</h3>
-        <h3>hooks-forms-generate v 2.5 has been discontinued! Contact support and update packages</h3>
         <TableSchedule
           keyField="key"
           data={schedule.data}
