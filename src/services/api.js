@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://evolutioclinica.netlify.app/',
+  baseURL: 'https://www.sistemaevolutioclinica.com.br/',
 });
 
 export default api;
