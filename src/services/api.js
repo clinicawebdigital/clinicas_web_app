@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://www.sistemaevolutioclinica.com.br/',
+  baseURL: 'http://www.victorsobreira.com.br/',
 });
 
 export default api;
